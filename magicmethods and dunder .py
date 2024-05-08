@@ -9,15 +9,3 @@ M1=Mobile("Samsung galaxy a15",8,"Octa-core Dimensity 720")
 print(M1.name)
 print(M1.Ram)
 print(M1.Processor)
-
-class Numbers:
-    def __init__(self, numbers, number):
-        self.numbers = numbers
-        self.number = number
-
-    def __add__(self):
-        return self.numbers + self.number
-
-N1 = (5, 6)
-n = Numbers(N1, 0)
-print(n.__add__())  # output: 1
